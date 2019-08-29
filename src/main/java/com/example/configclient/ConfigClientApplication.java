@@ -16,7 +16,7 @@ public class ConfigClientApplication {
 		SpringApplication.run(ConfigClientApplication.class, args);
 	}
 }
-
+@RefreshScope
 @RestController
 class TestRestController{
 
